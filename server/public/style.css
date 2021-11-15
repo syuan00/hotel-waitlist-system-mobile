@@ -1,0 +1,84 @@
+*{
+    background-color: #364046;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font: italic small-caps bold 24px/30px Georgia, serif;
+    color:#F9BF45;
+
+}
+
+#WaitList{
+    text-align: center;
+    width: 600px;
+    height: auto;
+    font-size: 14px;
+    padding: 0px 0px 0px 5px; 
+    background-image: initial; 
+    background-position: initial; 
+    background-size: initial; 
+    background-repeat: initial; 
+    background-attachment: initial; 
+    background-origin: initial; 
+    background-clip: initial; 
+    line-height: 20px; 
+    width: 640px; clear: both; 
+    color: #F6F1E7;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#cnt, #ShowFreeSlots, #ShowCustomer{
+    color:#FDECD8 ;
+}
+
+#CustomerPage {
+    text-align: left;
+    line-height: 50px; 
+}
+
+form input, button{
+    width: 100px;
+    height: 30px;
+    background: #F6F1E7;
+    color: #a8a191;
+    border-radius: 5px;
+    border: 2px solid #F6F1E7;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form #addBtn{
+    width: 50px;
+}
+
+form #delBtn{
+    width: 68px;
+}
+
+form input:hover, button:hover{
+    background-color: #a8a191;
+    color: #F6F1E7;
+    border: 1px solid #F6F1E7;
+    transform: scale(1.08);
+}
+
+table{
+    text-align: center;
+    width: 98%;
+    line-height: 200%;
+    margin: 0 auto;
+    border: 2px solid gray;
+    border-radius: 15px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+}

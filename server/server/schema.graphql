@@ -1,0 +1,27 @@
+scalar GraphQLDate
+
+type Customer {
+  _id: ID!
+  id: Int!
+  name: String!
+  phone: String
+  timestamp: GraphQLDate!
+}
+
+"Toned down Customer used as inputs, without server generated values."
+input CustomerInputs {
+  name: String!
+  "Optional, if not supplied, will be set to 'New'"
+  phone: String
+}
+##### Top level declarations
+type Query {
+  about: String!
+  customerList: [Customer!]!
+  customer(id: Int!): Customer
+}
+type Mutation {
+  setAboutMessage(message: String!): String
+  customerAdd(customer: CustomerInputs!): Customer!
+  customerDelete(id: Int!): Int
+}
